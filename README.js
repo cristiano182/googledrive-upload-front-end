@@ -16,7 +16,7 @@ class App extends Component {
 
   onClick = async e => {
    // localStorage.setItem("accessToken", p.data.access_token);
-    var PastaPublica = "1BMmVZwOAc7GVEGBGB1oxegy2O3tbNgh0";
+    var PastaPublica = "1Bh0";
     var fileContent = "sample text";
     var file = new Blob([fileContent], { type: "text/plain" });
     var metadata = {
